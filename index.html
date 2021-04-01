@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Matthew Baker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="homeTopCanvas">
+        <canvas id="canvasArt"></canvas>
+        <div id="canvasContent">
+            <h1 class="mainPageTitles">Hello and welcome, my name is <span id="name">Matthew Baker</span></h1>
+            <h1 class="mainPageTitles topSpace">I am a Software Developer </h1>
+            <h3 class="wordCarousel">
+                <span id="creating">Creating Websites that are : </span>
+                <div>
+                    <ul class="flip4">
+                        <li>Functional</li>
+                        <li>Responsive</li>
+                        <li>Reliable</li>
+                        <li>Fast</li>
+                    </ul>
+                </div>
+            </h3>
+            <button class="btn wave-effect waves-light" id="siteButton"><a href="#mainPage" class="myLinks">See my work</a></button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <main id="mainPage">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Logo</a>
+                <a class='dropdown-trigger right' href='#' data-target='dropdown1'>
+                    <i class="material-icons hide-on-med-and-up">menu</i>
+                </a>
+
+                <ul class='hide-on-small-only right'>
+                    <li><a href="#!">About</a></li>
+                    <li><a href="#!">Projects</a></li>
+                    <li><a href="#!">Skills / Edu</a></li>
+                    <li class="divider" tabindex="-1"></li>
+                    <li><a href="#!">Contact</a></li>
+                </ul>
+
+            </div>
+
+            <ul id='dropdown1' class='dropdown-content'>
+                <li><a href="#!">About</a></li>
+                <li><a href="#!">Projects</a></li>
+                <li><a href="#!">Skills / Edu</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="#!">Contact</a></li>
+            </ul>
+        </nav>
+
+
+
+    </main>
+
+
+    <script src="util/jq.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="util/materializeFunctions.js"></script>
+    <script src="homePage.js"></script>
+</body>
+</html>

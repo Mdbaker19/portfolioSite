@@ -1,0 +1,341 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 40%;
+}
+body{
+    background: #383535;
+}
+#homeTopCanvas{
+    width: 100vw;
+    height: 100vh;
+}
+#canvasContent{
+    position: absolute;
+    top: 3vh;
+    left: 8vw;
+    width: 90vw;
+}
+#canvasArt{
+    width: 100%;
+    height: 100%;
+    background: rgb(1,19,7);
+    background: linear-gradient(153deg, rgba(1,19,7,1) 22%, rgba(21,94,137,0.9948354341736695) 42%, rgba(154,234,221,1) 50%, rgba(0,72,26,1) 58%, rgba(0,23,54,1) 78%);
+}
+#mainPage{
+    min-height: 100vh;
+}
+
+
+
+/*My Styling*/
+.myLinks{
+    color: black !important;
+}
+
+
+
+/*Materialize Overrides*/
+.btn{
+    font-size: 1.8rem;
+    height: 5rem;
+}
+
+/*Added*/
+
+
+.wordCarousel {
+    font-weight: 100;
+    color: #9aeadd;
+    width: 65%;
+}
+.wordCarousel div {
+    overflow: hidden;
+    position: relative;
+    float: right;
+    height: 65px;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+.wordCarousel div li {
+    color: #9aeadd;
+    font-weight: 700;
+    padding: 0 10px;
+    height: 45px;
+    margin-bottom: 45px;
+    display: block;
+}
+
+.flip2 {
+    -webkit-animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.8) infinite;
+    animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.8) infinite;
+}
+
+.flip3 {
+    -webkit-animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.8) infinite;
+    animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.8) infinite;
+}
+
+.flip4 {
+    -webkit-animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.8) infinite;
+    animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.8) infinite;
+}
+
+@-webkit-keyframes flip2 {
+    0% {
+        margin-top: -180px;
+    }
+    5% {
+        margin-top: -90px;
+    }
+    50% {
+        margin-top: -90px;
+    }
+    55% {
+        margin-top: 0px;
+    }
+    99.99% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: -270px;
+    }
+}
+
+@keyframes flip2 {
+    0% {
+        margin-top: -180px;
+    }
+    5% {
+        margin-top: -90px;
+    }
+    50% {
+        margin-top: -90px;
+    }
+    55% {
+        margin-top: 0px;
+    }
+    99.99% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: -270px;
+    }
+}
+@-webkit-keyframes flip3 {
+    0% {
+        margin-top: -270px;
+    }
+    5% {
+        margin-top: -180px;
+    }
+    33% {
+        margin-top: -180px;
+    }
+    38% {
+        margin-top: -90px;
+    }
+    66% {
+        margin-top: -90px;
+    }
+    71% {
+        margin-top: 0px;
+    }
+    99.99% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: -270px;
+    }
+}
+@keyframes flip3 {
+    0% {
+        margin-top: -270px;
+    }
+    5% {
+        margin-top: -180px;
+    }
+    33% {
+        margin-top: -180px;
+    }
+    38% {
+        margin-top: -90px;
+    }
+    66% {
+        margin-top: -90px;
+    }
+    71% {
+        margin-top: 0px;
+    }
+    99.99% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: -270px;
+    }
+}
+@-webkit-keyframes flip4 {
+    0% {
+        margin-top: -360px;
+    }
+    5% {
+        margin-top: -270px;
+    }
+    25% {
+        margin-top: -270px;
+    }
+    30% {
+        margin-top: -180px;
+    }
+    50% {
+        margin-top: -180px;
+    }
+    55% {
+        margin-top: -90px;
+    }
+    75% {
+        margin-top: -90px;
+    }
+    80% {
+        margin-top: 0px;
+    }
+    99.99% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: -270px;
+    }
+}
+@keyframes flip4 {
+    0% {
+        margin-top: -360px;
+    }
+    5% {
+        margin-top: -270px;
+    }
+    25% {
+        margin-top: -270px;
+    }
+    30% {
+        margin-top: -180px;
+    }
+    50% {
+        margin-top: -180px;
+    }
+    55% {
+        margin-top: -90px;
+    }
+    75% {
+        margin-top: -90px;
+    }
+    80% {
+        margin-top: 0px;
+    }
+    99.99% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: -270px;
+    }
+}
+
+
+.mainPageTitles {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: #9aeadd;
+    font-family: "Source Sans Pro", sans-serif;
+    -webkit-animation: reveal 1000ms ease-in-out forwards 400ms, glow 4500ms linear infinite 4000ms;
+    animation: reveal 1000ms ease-in-out forwards 400ms, glow 4500ms linear infinite 4000ms;
+}
+@-webkit-keyframes reveal {
+    80% {
+        letter-spacing: 2px;
+    }
+    100% {
+        background-size: 0 130%;
+    }
+}
+@keyframes reveal {
+    80% {
+        letter-spacing: 2px;
+    }
+    100% {
+        background-size: 0 130%;
+    }
+}
+@-webkit-keyframes glow {
+    40% {
+        font-size: 4.3rem;
+        color: #155e89;
+    }
+}
+@keyframes glow {
+    40% {
+        font-size: 4.3rem;
+        color: #155e89;
+    }
+}
+
+section {
+    color: #011307;
+    color: #001736;
+    color: #00481a;
+    color: #155e89;
+    color: #9aeadd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media*/
+
+@media screen and (min-width: 475px){
+
+}
+
+@media screen and (min-width: 768px){
+    html{
+        font-size: 59%;
+    }
+    .wordCarousel{
+        width: 72%;
+    }
+    .btn{
+        height: 4rem;
+        line-height: 2rem;
+        font-size: 1.5rem;
+    }
+    #siteButton{
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (min-width: 900px){
+    html{
+        font-size: 61%;
+    }
+    .wordCarousel{
+        width: 56%;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    html{
+        font-size: 70%;
+    }
+    .wordCarousel{
+        width: 47%;
+    }
+}
