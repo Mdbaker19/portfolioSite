@@ -51,6 +51,7 @@ body{
     font-weight: 100;
     color: #9aeadd;
     width: 65%;
+    max-width: 610px;
 }
 .wordCarousel div {
     overflow: hidden;
@@ -248,8 +249,8 @@ body{
     background-clip: text;
     color: #9aeadd;
     font-family: "Source Sans Pro", sans-serif;
-    -webkit-animation: reveal 1000ms ease-in-out forwards 400ms, glow 4500ms linear infinite 4000ms;
-    animation: reveal 1000ms ease-in-out forwards 400ms, glow 4500ms linear infinite 4000ms;
+    -webkit-animation: reveal 1000ms ease-in-out forwards 1000ms;
+    animation: reveal 1000ms ease-in-out forwards 1000ms;
 }
 @-webkit-keyframes reveal {
     80% {
@@ -267,18 +268,7 @@ body{
         background-size: 0 130%;
     }
 }
-@-webkit-keyframes glow {
-    40% {
-        font-size: 4.3rem;
-        color: #155e89;
-    }
-}
-@keyframes glow {
-    40% {
-        font-size: 4.3rem;
-        color: #155e89;
-    }
-}
+
 
 section {
     color: #011307;
